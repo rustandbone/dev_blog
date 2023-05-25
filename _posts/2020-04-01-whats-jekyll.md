@@ -1,12 +1,14 @@
 ---
 layout: post
-title: What's Jekyll?
+title: 첫 게시글
 ---
 
-[Jekyll](https://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
+오늘 4시부터 하여 깃허브 블로그 개설 작업을 하였다.
 
-  > Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+이전에는 네이버 블로그에 글을 썼는데, 이번에 프론트엔드 쪽으로 옮기면서 새로운 블로그를 만들어서 올리고 싶었다. 프로그래머스 코딩테스트와 병행하여 기록을 좀 하고 싶었기 때문에, 특히 깃허브 블로그를 선택했다. 따로 만들어야 한다는 것 정도만 알고 있었는데, 이렇게 번거로울 줄이야.
 
-It's an immensely useful tool and one we encourage you to use here with Lanyon.
+로컬에서 확인하고, 푸시를 하니 css가 적용되지 않았다. css 받아오는 링크가 http여서 직접 css를 저장해서 링크를 바꿔주었더니 겨우 적용이 된다.
 
-Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll).
+지금 쓰는 것도 단순히 테스트용. 첫 게시물을 바꿔서 이렇게 포스팅을 하면 되는 것인가 하고 테스트를 하는 중이다.
+
+사진은 어떻게 올리고, 코드를 올릴 때는 어떻게 할지는 나중에 생각하자.

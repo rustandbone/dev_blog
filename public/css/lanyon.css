@@ -44,6 +44,13 @@ html {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("github.io/public/fonts/NotoSansKR-Medium") format("otf");
+  unicode-range: U+0020-007E;
+  font-style: normal;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;

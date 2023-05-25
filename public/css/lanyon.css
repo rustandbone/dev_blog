@@ -41,7 +41,7 @@ body {
 }
 
 html {
-  /* font-family: "PT Serif", Georgia, "Times New Roman", serif; */
+  font-family: "NotoSansKR", "PT", Georgia, "Times New Roman", serif;
 }
 
 @font-face {
@@ -52,15 +52,15 @@ html {
 }
 
 @font-face {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "PT";
   src: local("PT Serif"), local(Georgia);
   unicode-range: U+0041-005A, U+0061-007A;
   font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /* font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400; */
+  font-family: "PT", "NotoSansKR", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
 }

@@ -201,10 +201,12 @@ export function FramerLogo({ size = 60 }) {
         variants={createIconVariants('#00AAFF')}
         initial="hidden"
         animate="visible"
+        {% raw %}
         transition={{
           default: { duration: 0.75, delay: 0.25, ease: 'easeInOut' },
           fill: { duration: 1, delay: 0.25, ease: [1, 0, 0.8, 1] },
         }}
+        {% endraw %}
       />
       <motion.path
         d="M9 7L16 13.6667H23V7H9Z"
@@ -214,10 +216,12 @@ export function FramerLogo({ size = 60 }) {
         variants={createIconVariants('#88DDFF')}
         initial="hidden"
         animate="visible"
+        {% raw %}
         transition={{
           default: { duration: 0.75, delay: 0.5, ease: 'easeInOut' },
           fill: { duration: 1, delay: 0.5, ease: [1, 0, 0.8, 1] },
         }}
+        {% endraw %}
       />
     </svg>
   );

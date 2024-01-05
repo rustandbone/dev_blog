@@ -15,9 +15,10 @@ published: true
 ## framer Motion
 
 AnimatedOutlet.jsx
+
 ```jsx
-import { useState } from 'react';
-import { useOutlet } from 'react-router-dom';
+import { useState } from "react";
+import { useOutlet } from "react-router-dom";
 
 function AnimatedOutlet() {
   const o = useOutlet();
@@ -29,6 +30,7 @@ export default AnimatedOutlet;
 ```
 
 RootLayout.jsx
+
 ```jsx
 import AnimatedOutlet from '@/components/AnimateOutlet';
 import AnimateTransition from '@/components/AnimateTransition';
@@ -47,9 +49,10 @@ function RootLayout({ displaySideMenu = false }) {
 ```
 
 AnimateTransition.jsx
+
 ```jsx
-import { motion, AnimatePresence } from 'framer-motion';
-import { useLocation } from 'react-router-dom';
+import { motion, AnimatePresence } from "framer-motion";
+import { useLocation } from "react-router-dom";
 
 function AnimateTransition({ children }) {
   const location = useLocation();
@@ -73,12 +76,14 @@ function AnimateTransition({ children }) {
 ```
 
 ## 적용
+
 Heading.jsx
+
 ```jsx
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import { FramerLogo } from './Logo';
-import { useState } from 'react';
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { FramerLogo } from "./Logo";
+import { useState } from "react";
 
 function Heading() {
   const [animKey, setAnimKey] = useState(0);
@@ -100,9 +105,10 @@ export default Heading;
 ```
 
 Footer.jsx
+
 ```jsx
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { useState } from "react";
+import { motion } from "framer-motion";
 
 function FooterBar() {
   const [currentYear] = useState(() => new Date().getFullYear());
@@ -127,6 +133,7 @@ export default FooterBar;
 ```
 
 Products.jsx
+
 ```jsx
 const list = {
   hidden: { opacity: 0 },
@@ -160,10 +167,11 @@ const listItem = {
   {data.items.map((item) => (
     <ProductItem key={item.id} item={item} />
   ))}
-</motion.ul>
+</motion.ul>;
 ```
 
 Logo.jsx
+
 ```jsx
 export function FramerLogo({ size = 60 }) {
   return (
@@ -178,10 +186,12 @@ export function FramerLogo({ size = 60 }) {
         variants={createIconVariants('#0055FF')}
         initial="hidden"
         animate="visible"
+        {% raw %}
         transition={{
           default: { duration: 0.75, ease: 'easeInOut' },
           fill: { duration: 1, ease: [1, 0, 0.8, 1] },
         }}
+        {% endraw %}
       />
       <motion.path
         d="M16 13.6665H9V20.3332H23L16 13.6665Z"

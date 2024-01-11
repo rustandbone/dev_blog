@@ -1,17 +1,17 @@
 # Setup
-title:               rustandbone
-tagline:             'Developer'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 'https://rustandbone.github.io/github.io'
-baseurl:             ''
-paginate:            5
-permalink:           pretty
+title: rustandbone
+tagline: "Developer"
+description: 'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url: "https://rustandbone.github.io/dev_blog"
+baseurl: ""
+paginate: 5
+permalink: pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name: Dongho Lee
+  url: https://github.com/rustandbone
+  email: dlehdgh14@naver.com
 
 # Gems
 plugins:
@@ -24,5 +24,5 @@ plugins:
   - jekyll-relative-links
 
 # Custom vars
-version:             1.1.0
+version: 1.1.0
 google_analytics_id: #UA-XXXX-Y

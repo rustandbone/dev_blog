@@ -14,14 +14,20 @@
 
   {% if page.url and site.baseurl %}
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
-  {% endif %}
+  {% endif %} <link rel="stylesheet" href="{{ "/public/css/poole.css" | prepend:
+  site.baseurl }}" /> <link rel="stylesheet" href="{{ "/public/css/syntax.css" |
+  prepend: site.baseurl }}" /> <link rel="stylesheet" href="{{
+  "/public/css/lanyon.css" | prepend: site.baseurl }}" />
 
-  <link rel="stylesheet" href="/dev_blog/public/css/poole.css" />
-  <link rel="stylesheet" href="/dev_blog/public/css/syntax.css" />
-  <link rel="stylesheet" href="/dev_blog/public/css/lanyon.css" />
   <link
     rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400"
+  />
+
+  <link
+    rel="stylesheet"
+    crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
   />
 
   <link
@@ -29,7 +35,8 @@
     sizes="144x144"
     href="{{ '/public/apple-touch-icon-precomposed.png' | absolute_url }}"
   />
-  <link rel="shortcut icon" href="/dev_blog/public/favicon.ico" />
+  <link rel="shortcut icon" href="{{ "/public/favicon.ico" | prepend:
+  site.baseurl }}" />
 
   <link
     rel="alternate"

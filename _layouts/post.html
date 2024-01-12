@@ -15,7 +15,7 @@ layout: default
     {% for post in site.related_posts limit:3 %}
     <li>
       <h3>
-        <a href="/dev_blog/{{ site.baseurl }}{{ post.url }}">
+        <a href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
           <small>{{ post.date | date_to_string }}</small>
         </a>
@@ -29,7 +29,7 @@ layout: default
 <!-- 댓글 -->
 <script
   src="https://utteranc.es/client.js"
-  repo="rustandbone/comment"
+  repo="rustandbone/blog_comment"
   issue-term="pathname"
   label="comment"
   theme="github-light"

@@ -11,9 +11,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/dev_blog" title="Home">
-              {{ site.title }}
-            </a>
+            <a href="{{ site.baseurl }}/" title="Home" class="siteTitle"> {{ site.title }} </a>
             <small>{{ site.tagline }}</small>
           </h3>
         </div>
@@ -24,6 +22,6 @@
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <script src="/dev_blog/public/js/script.js"></script>
+    <script src="{{ "/public/js/script.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>

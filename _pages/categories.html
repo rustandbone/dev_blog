@@ -1,0 +1,21 @@
+---
+layout: default
+title: Categories
+permalink: /categories/
+---
+
+<div class="container">
+  <h1 class="page-title">{{ page.title }}</h1>
+
+  <ul class="category-list">
+    {% for category in site.categories %}
+    <li>
+      <h2>
+        <a href="{{ site.baseurl }}/{{ category | first }}">
+          {{ category | first }}
+        </a>
+      </h2>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

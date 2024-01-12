@@ -2,9 +2,9 @@
 title: rustandbone
 tagline: "Developer"
 description: 'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url: "https://rustandbone.github.io/dev_blog"
-baseurl: ""
-paginate: 5
+url: "https://rustandbone.github.io"
+baseurl: "/dev_blog"
+paginate: 10
 permalink: pretty
 
 # About/contact
@@ -22,6 +22,11 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-relative-links
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
 # Custom vars
 version: 1.1.0

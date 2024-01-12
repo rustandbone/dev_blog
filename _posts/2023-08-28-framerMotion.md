@@ -60,12 +60,14 @@ function AnimateTransition({ children }) {
     <AnimatePresence mode="wait">
       <motion.div
         key={location.pathname}
+        {% raw %}
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 20 }}
         transition={{
           duration: 0.4,
         }}
+        {% endraw %}
         className="h-full"
       >
         {children}
@@ -93,7 +95,9 @@ function Heading() {
   };
 
   return (
+    {% raw %}
     <motion.h1 whileHover={{ scale: 1.2, rotate: -2 }}>
+    {% endraw %}
       <Link to="/" onClick={handleRefreshAnimation}>
         <FramerLogo key={animKey} size={60} className="text-blue-300" />
       </Link>
@@ -117,10 +121,12 @@ function FooterBar() {
     <footer className="p-5 grid place-content-center bg-black dark:border-t dark:border-t-zinc-50/20">
       <motion.small
         drag="x"
+        {% raw %}
         dragConstraints={{
           left: -2,
           right: 2,
         }}
+        {% endraw %}
         className="text-base text-sky-500/90 hover:text-sky-500"
       >
         Copyright 2020-{currentYear} &copy; <strong>EUID</strong>

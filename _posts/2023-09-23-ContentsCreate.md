@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "230923 화 멋쟁이사자처럼 React Project 콘텐츠 등록 페이지"
+title: "Jeju All in One 프로젝트 - 콘텐츠 등록 페이지"
 date: 2023-09-23 18:00:00 +0900
-categories: likelion blog
+categories: likelion blog React
 published: true
 ---
 

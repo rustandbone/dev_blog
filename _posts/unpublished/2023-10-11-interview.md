@@ -3,7 +3,7 @@ layout: post
 title: "231011 수 멋쟁이사자처럼 프론트엔드 스쿨 플러스 인터뷰"
 date: 2023-10-11 18:00:00 +0900
 categories: likelion blog
-published: true
+published: false
 ---
 
 # 멋쟁이사자처럼 프론트엔드 스쿨 플러스 인터뷰

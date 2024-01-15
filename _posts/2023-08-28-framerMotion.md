@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "230828 월 멋쟁이사자처럼 React"
+title: "framer Motion"
 date: 2023-08-28 18:00:00 +0900
-categories: likelion blog
+categories: likelion blog React
 published: true
 ---
 

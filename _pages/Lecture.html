@@ -1,0 +1,14 @@
+---
+layout: default
+title: 강의
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul>
+  {% for post in site.categories.Lecture %}
+  <li>
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

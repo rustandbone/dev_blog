@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "framer Motion"
+title: "React_framer Motion"
 date: 2023-08-28 18:00:00 +0900
 categories: likelion blog React
 published: true

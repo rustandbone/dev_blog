@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Jeju All in One_React 프로젝트 기술서"
-date: 2024-02-02 17:00:00 +0900
+date: 2024-02-01 17:00:00 +0900
 categories: blog React Project
 published: true
 ---
 
 ## Jeju All in One_React 프로젝트 기술서
 
-- [Jeju All in One_React 프로젝트 기술서](#jeju-all-in-one_react-프로젝트-기술서)
+- [Jeju All in One\_React 프로젝트 기술서](#jeju-all-in-one_react-프로젝트-기술서)
   - [기간](#기간)
   - [링크](#링크)
   - [프로젝트 소개](#프로젝트-소개)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TAING 반응형 웹페이지_JavaScript 프로젝트 기술서"
-date: 2023-08-10 18:00:00 +0900
+date: 2024-02-02 16:00:00 +0900
 categories: blog JavaScript
 published: true
 ---
@@ -22,7 +22,7 @@ published: true
 ### 링크
 
 [Github][]  
-[wiki][]
+[wiki][]  
 [배포 주소][]
 
 ### 프로젝트 소개

@@ -2,7 +2,7 @@
 layout: post
 title: "Jeju All in One_React 프로젝트 기술서"
 date: 2024-02-02 17:00:00 +0900
-categories: blog React
+categories: blog React Project
 published: true
 ---
 
